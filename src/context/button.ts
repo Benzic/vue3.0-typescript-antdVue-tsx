@@ -1,19 +1,18 @@
 /*
  * @Author: your name
  * @Date: 2020-09-14 17:53:37
- * @LastEditTime: 2020-09-14 18:24:29
+ * @LastEditTime: 2020-09-15 15:52:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue-cli\src\context\button.ts
  */
-import { provide, ref, Ref, inject, computed, } from 'vue'
+import { provide, ref, Ref, inject, computed } from 'vue'
 import { getTestApi } from '../api/testApi'
 interface ListContext {
     count: Ref<number>,
     count2: Ref<number>,
     changeCount: (data: number) => void
 }
-
 // provide名称，推荐用Symbol
 const listymbol = Symbol()
 // 提供provide的函数

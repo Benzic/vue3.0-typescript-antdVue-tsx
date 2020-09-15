@@ -12,7 +12,7 @@ const ButtonCom = defineComponent({
         };
         return () => (
             <Button type={props.type} onClick={handleClick}>
-                {slots.default && slots.default()}{count.value}{count2.value}
+                {slots.default && slots.default()}count:{count.value}count2:{count2.value}
             </Button>
         )
     }
