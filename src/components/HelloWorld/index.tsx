@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue';
-import Button from '../Button/index'
-import Content from '../Content/index'
-import './index.css'
+import Button from '@/components/Button/index'
+import Content from '@/components/Content/index'
+import './index.scss'
 
 const HelloWorld = defineComponent({
     props: {
@@ -12,7 +12,7 @@ const HelloWorld = defineComponent({
             <div class="hello">
                 <Button type="danger">这是一个按钮</Button>
 
-                
+
                 <Content content={props.msg}></Content>
 
 

@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue';
 import HelloWorld from "@/components/HelloWorld/index";
-import logo from '../../assets/logo.png'
+import logo from '@/assets/logo.png'
 interface HomeProps { }
 const Home = defineComponent({
     setup(props: HomeProps) {

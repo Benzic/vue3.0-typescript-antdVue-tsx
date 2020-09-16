@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue';
 import { Button } from 'ant-design-vue';
-import { buttonInject } from '../../context/index'
+import { buttonInject } from '@/context/index'
 interface ButtonProps {
     type: any
 }

@@ -1,13 +1,13 @@
 /*
  * @Author: your name
  * @Date: 2020-09-14 17:53:37
- * @LastEditTime: 2020-09-15 15:52:03
+ * @LastEditTime: 2020-09-16 10:17:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vue-cli\src\context\button.ts
  */
 import { provide, ref, Ref, inject, computed } from 'vue'
-import { getTestApi } from '../api/testApi'
+import { getTestApi } from '@/api/testApi'
 interface ListContext {
     count: Ref<number>,
     count2: Ref<number>,
